@@ -1,0 +1,1 @@
+function validateForm() {    var infN = document.forms["clientInf"]["clientName"].value;    if (infN == "") {        alert("Enter your name");        return false;    }     var infT = document.forms["clientInf"]["clientT"].value;    if (infT == "") {        alert("Enter your message");        return false;    } } 
